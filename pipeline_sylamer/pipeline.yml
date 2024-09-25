@@ -1,0 +1,15 @@
+
+
+# Fasta file of 
+fasta: fasta.fasta
+
+# Ranked list of sUTRs
+ranks: ranks_A549.tsv
+
+#List of seeds to look for
+seeds: highstab_list_filtered_oligos.list
+
+#Sylamer options, see sylamer documentation for more details
+sylamer:
+    #set -m option to min seed length
+    min: 6
